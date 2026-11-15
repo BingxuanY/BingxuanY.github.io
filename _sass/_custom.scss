@@ -1,0 +1,170 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.profile .more-info {
+  font-family: inherit;
+}
+
+.social .contact-icons {
+  font-size: 1.75rem;
+}
+
+.social .contact-icons a img,
+.social .contact-icons a svg,
+.social .contact-icons a svg image {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.wave-emoji {
+  color: #f472b6;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.2em;
+  transform-origin: 70% 70%;
+  transform-box: fill-box;
+  animation: wave 1.6s ease-in-out infinite;
+}
+
+html[data-theme="dark"] .wave-emoji {
+  color: #00c7fd;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(22deg);
+  }
+
+  40% {
+    transform: rotate(-14deg);
+  }
+
+  60% {
+    transform: rotate(20deg);
+  }
+
+  80% {
+    transform: rotate(-4deg);
+  }
+}
+
+.profile-links-divider {
+  border: 0;
+  border-top: 1px solid #cbd5e1;
+  margin: 0.75rem 0;
+}
+
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.85rem;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  text-align: left;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.profile-link:hover {
+  background-color: #e2e8f0;
+  color: #0f172a;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.profile-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+html[data-theme="dark"] .profile-links-divider {
+  border-top-color: #475569;
+}
+
+html[data-theme="dark"] .profile-link {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+html[data-theme="dark"] .profile-link:hover {
+  background-color: #334155;
+  color: #ffffff;
+}
+
+.projects .card {
+  aspect-ratio: 1 / 1;
+  height: auto;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.projects .card-body {
+  display: none;
+}
+
+.projects .card > figure,
+.projects .card picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.projects .card-img,
+.projects .card-img-top {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.profile-info-text {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.profile-info-text p {
+  margin: 0;
+}
+
+.profile-info-image {
+  flex: 0 0 80px;
+}
+
+.profile-info-image figure {
+  margin: 0;
+}
+
+.profile-info-panda {
+  display: block;
+  width: 80px;
+  max-width: none;
+  height: auto;
+  margin-left: -20px;
+}
