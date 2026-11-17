@@ -20,11 +20,11 @@ This project-based paper focused on creating a low cost alternative to AAC devic
         year      = {2026},
         pages     = {373--376},
         doi       = {10.1109/CBMS69103.2026.00083},
-        url       = {https://www.computer.org/csdl/proceedings-article/cbms/2026/499900a373/2krxKYPR3Ne}
+        url       = {https://ieeexplore.ieee.org/abstract/document/11718150}
     }
     ---
 
-<a href="https://www.computer.org/csdl/proceedings-article/cbms/2026/499900a373/2krxKYPR3Ne" class="paper-link-btn" target="_blank" rel="noopener noreferrer">
+<a href="https://ieeexplore.ieee.org/abstract/document/11718150" class="paper-link-btn" target="_blank" rel="noopener noreferrer">
   <i class="fas fa-link"></i> Paper
 </a>
 
